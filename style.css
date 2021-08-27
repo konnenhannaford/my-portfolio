@@ -1,45 +1,93 @@
-/* Universal Selector */
+
 * {
-    margin:0;
-    padding:0;  
-  }
-  
-  /* Element Selectors */
-  body {
-    position: relative;
-    font-family: "Goudy Bookletter 1911", sans-serif;
-    font-size: 20px;
-    background-color: #FDF8F5;
-    color: #4F4846;
+    margin: 10px;
+    padding: 10px;;  
   }
 
-h2, h3, h4{
-    margin: 20px;
+  header {
+    position: sticky;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    display: block;
+    color: #070606;
+    background: url(images/lines.png) center no-repeat;
+    background-size: cover;
+  }
+
+  li {
+    display: inline;
+    list-style-type: none;
+    font-size: 15px;
   }
 
   main {
-    padding: 60px 0;
-  }
-
-  .text-center {
-    text-align: center;
+    padding: 160px 15;
   }
   
+
+  #title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    background-color: #e1fffd;
+    display: block;
+    color: #070606;
+  }
+
+  #links {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+  }
+
+  .sub-headings {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    background-color: #e1fffd;
+    display: block;
+    color: #070606;
+  }
+
   .text-right {
     text-align: right;
   }
 
-  
+  .text-center {
+    text-align: justify;
+  }
 
-.headings {
-    padding: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-.socials {
-    padding: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;    
-}
+  /* Set a specific color for each brand */
+
+  .socials-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .socials-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+ 
+  .socials-instagram {
+    background: #55ACEE;
+    color: white;
+  }
+  .socials-Linkedin {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .socials-gmail {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .socials-github {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .socials-gitlab {
+    background: #55ACEE;
+    color: white;
+  }
