@@ -1,51 +1,51 @@
 
 * {
-    margin: 10px;
-    padding: 10px;;  
+  margin:10;
+  padding:10;  
   }
 
+  body{  
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right) hsl(0, 57%, 77%),rgb(240, 240, 132);
+}
   header {
-    position: sticky;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 10px;
-    display: block;
-    color: #070606;
-    background: url(images/lines.png) center no-repeat;
-    background-size: cover;
-  }
-
-  li {
-    display: inline;
-    list-style-type: none;
-    font-size: 15px;
-  }
-
-  main {
-    padding: 160px 15;
+    position: fixed;
+    opacity: 1;
+    color: #4F4846;
+    font-size:50px;
   }
   
-
-  #title {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 10px;
-    background-color: #e1fffd;
-    display: block;
-    color: #070606;
+  li {
+    display: inline;
+    font-size: 20px;
   }
 
-  #links {
-    padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
+  #hannaford {
+    color: rgba(203, 203, 241, 0.363)
+  }
+  main {
+    position: static;
+    font-size: 10px;
+    display: inline-block;
+  }
+
+  .links {
+    padding: 20px;
+    background-color: #4F4846;
     color: #ffffff;
+    opacity: 0.5;
+    border-radius: 35px;
+    width: 85%;
+    height: 5px;
+    justify-content: space-between;
+    display: flex;
   }
 
   .sub-headings {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
-    background-color: #e1fffd;
-    display: block;
-    color: #070606;
+    display: flex;
+    color: #4F4846;
+    margin: 50px;
   }
 
   .text-right {
@@ -53,41 +53,87 @@
   }
 
   .text-center {
-    text-align: justify;
+    text-align: center;
   }
 
-  /* Set a specific color for each brand */
+/* Images */
+  .products {
+    flex: 1;
+    background-color: var(--white);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:1px;
+    width: 400px;
+    height: 200px;}
+  
+  .card {
+    border-style:hidden;
+    border-width: 1px;
+    padding: 10px;
+    flex: 0 0 10px;
+    box-shadow: 5px 5px rgb(240, 240, 132);
+    margin: 1px;
 
-  .socials-facebook {
-    background: #3B5998;
-    color: white;
+  }
+
+
+  /* footer */
+  .footer {
+    color: #e2e0e0;
+    height: 40px;
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* message box */
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 25px;
   }
   
-  .socials-twitter {
-    background: #55ACEE;
-    color: white;
+  button {
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    color: #4F4846;
+    border: none;
+    border-radius: 35px;
   }
  
-  .socials-instagram {
-    background: #55ACEE;
-    color: white;
+  input{
+    box-sizing: content-box;
+    position:relative;
+    width: 200px;
+    padding: 20px;
+    height: 10px;
+    border: none;
+    border-bottom: 5px solid rgb(255, 230, 0);
+    background color: #acd3c5;
+    opacity: 0.5;
+    border-radius: 35px;
+    
   }
-  .socials-Linkedin {
-    background: #3B5998;
-    color: white;
+  .form-row {
+    padding: 10px 0;
+    display: flex;
   }
   
-  .socials-gmail {
-    background: #55ACEE;
-    color: white;
+  .form-row label {
+    padding-right: 10px;
   }
+  
+  .form-row input {
+    flex: 1;
+  }√
+  #message {
+  box-sizing: content-box;
+  width: 200px;
+  height: 50px;
+  overflow: scroll;
+}
 
-  .socials-github {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .socials-gitlab {
-    background: #55ACEE;
-    color: white;
-  }
