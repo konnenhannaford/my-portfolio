@@ -9,6 +9,7 @@ main {
   flex-wrap: wrap;
   background-color: linear-gradient(to right) hsl(0, 57%, 77%),rgb(240, 240, 132);
   line-height: 1.5;
+  margin: 10%;
 }
 
 /* header */
@@ -59,20 +60,7 @@ a:hover {
   display: flex;
 }
 
-.bio {
-  flex: 2;
-  order: 2;
-}
 
-.about-me {
-  flex: 1;
-  order: 3;
-}
-
-.image {
-  flex: 1;
-  order: 1;
-}
 
 .columns {
   max-width: 100%;
