@@ -56,13 +56,11 @@ a:hover {
   text-decoration: none; color:black 
 }
 
-.section-tile {
-  font-size: 10px;
-  display: flex;
-  color: #4F4846;
-  margin: 50px;
-}
 
+.portfolio-pics {
+  width: 50%;
+  border-radius: 180px;
+}
 
 
 /* footer */
@@ -104,22 +102,20 @@ input{
   background-color: transparent;
   opacity: 0.5;
   border-radius: 35px;
-  
 }
-
 
 /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
 .row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-left: 400px;
+  margin-left: 200px;
   z-index: -1;
 }
 
 /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
 .card-column {
-  flex: 1 0 100%;
+  flex: 1 0 50%;
   padding: 1.5rem;
   /* when the screen resizes, make it so our columns don't jump in size */
   transition: flex-basis 500ms linear;
@@ -133,7 +129,17 @@ input{
   padding: 10px;
   background-color: rgb(4, 133, 133);
   color: #4F4846;
-  border: 2px solid var(--gin);
+  border-radius: 30px;
+  z-index: -1;
+}
+
+h2{
+  /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(4, 133, 133);
+  color: #4F4846;
   border-radius: 30px;
   z-index: -1;
 }
