@@ -1,139 +1,129 @@
-
-* {
-  margin:10;
-  padding:10;  
-  }
-
-  body{  
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right) hsl(0, 57%, 77%),rgb(240, 240, 132);
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-  header {
-    position: fixed;
-    opacity: 1;
-    color: #4F4846;
-    font-size:50px;
-  }
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: linear-gradient(to right) hsl(0, 57%, 77%),rgb(240, 240, 132);
+  line-height: 1.5;
+}
+
+/* header */
+.sticky {
+   position:-webkit-sticky; position:sticky; top:0;
+}
+
+.main-header {
+  opacity: 1;
+  color: #4F4846;
+  font-size:30px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(4, 133, 133);
+}
+
+#hannaford {
+  color: rgb(97, 95, 95)
+}
+
+.toolbar {
+  max-width: 100%;
+  padding: 5px;
+  display: flex;
+  background-color: #4F4846;
+  opacity: 5;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+}
+
+a:visited { 
+  text-decoration: none; color:rgb(4, 133, 133) 
+}
+a:hover { 
+  text-decoration: none; color:black 
+}
+
+/* about me */
+
+.first-section {
+  max-width: 100%;
+  padding: 20px 50px;
+  display: flex;
+}
+
+.bio {
+  flex: 2;
+  order: 2;
+}
+
+.about-me {
+  flex: 1;
+  order: 3;
+}
+
+.image {
+  flex: 1;
+  order: 1;
+}
+
+.columns {
+  max-width: 100%;
+  background-color: transparent;
+  display: flex;
+}
+
+
+
+/* footer */
+.footer {
+  color: #e2e0e0;
+  height: 40px;
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* message box */
+form {
   
-  li {
-    display: inline;
-    font-size: 20px;
-  }
+  width: 400px;
+  padding: 25px;
+  z-index: -1;
+  justify-content: center;
+}
 
-  #hannaford {
-    color: rgba(203, 203, 241, 0.363)
-  }
-  main {
-    position: static;
-    font-size: 10px;
-    display: inline-block;
-  }
+button {
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+  color: #4F4846;
+  border: none;
+  border-radius: 35px;
+}
 
-  .links {
-    padding: 20px;
-    background-color: #4F4846;
-    color: #ffffff;
-    opacity: 0.5;
-    border-radius: 35px;
-    width: 85%;
-    height: 5px;
-    justify-content: space-between;
-    display: flex;
-  }
-
-  .sub-headings {
-    font-size: 10px;
-    display: flex;
-    color: #4F4846;
-    margin: 50px;
-  }
-
-  .text-right {
-    text-align: right;
-  }
-
-  .text-center {
-    text-align: center;
-  }
-
-/* Images */
-  .products {
-    flex: 1;
-    background-color: var(--white);
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size:1px;
-    width: 400px;
-    height: 200px;}
-  
-  .card {
-    border-style:hidden;
-    border-width: 1px;
-    padding: 10px;
-    flex: 0 0 10px;
-    box-shadow: 5px 5px rgb(240, 240, 132);
-    margin: 1px;
-
-  }
-
-
-  /* footer */
-  .footer {
-    color: #e2e0e0;
-    height: 40px;
-    width: 100%;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-  }
-
-
-  /* message box */
-  form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 25px;
-  }
-  
-  button {
-    height: 20px;
-    width: 40px;
-    font-size: 10px;
-    color: #4F4846;
-    border: none;
-    border-radius: 35px;
-  }
- 
-  input{
-    box-sizing: content-box;
-    position:relative;
-    width: 200px;
-    padding: 20px;
-    height: 10px;
-    border: none;
-    border-bottom: 5px solid rgb(255, 230, 0);
-    background color: #acd3c5;
-    opacity: 0.5;
-    border-radius: 35px;
-    
-  }
-  .form-row {
-    padding: 10px 0;
-    display: flex;
-  }
-  
-  .form-row label {
-    padding-right: 10px;
-  }
-  
-  .form-row input {
-    flex: 1;
-  }√
-  #message {
+input{
   box-sizing: content-box;
+  position:relative;
   width: 200px;
-  height: 50px;
-  overflow: scroll;
+  padding: 10px;
+  height: 10px;
+  border: none;
+  border-bottom: 5px solid rgb(4, 133, 133);
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 35px;
+  
 }
 
+
+/* media screens */
