@@ -96,6 +96,10 @@ button {
   border-radius: 35px;
 }
 
+p {
+  width: 90vw;
+}
+
 input{
   box-sizing: content-box;
   position:relative;
