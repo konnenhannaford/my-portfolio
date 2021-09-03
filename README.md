@@ -14,14 +14,14 @@ This page is the wesbite of Konnen Hananford - web developer. Included on the pa
 - Site has been updated to include section links at the top of the page
 - Site has been updated to format to smaller screens and maintain formatting
 - Coding for site has been streamlined for efficiency 
-- A repo following best practice has been created with a valid README file
+- A repo following best practice has been created 
+- A ReadMe detailing the site and its workings has been created
 - Site has been deployed as a live site and applications loads with no errors
 
 # When the portfolio is loaded:
 - Site shows the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-- Site shows WHEN I click one of the links in the navigation
-- Site shows workign links to other sections of the page
-- Site shows workign links to other pages in my portflio
+- Site shows working links to other sections of the page
+- Site shows working links to other pages in my portflio
 - Site shows the first assignment as the larger image for my portfolio section
 - Site shows a responsive laout when resized to smaller scereens
 
@@ -29,7 +29,7 @@ This page is the wesbite of Konnen Hananford - web developer. Included on the pa
 - Repo is public and can be updated by all via https://konnenhannaford.github.io/my-portfolio/
 
 # Learnings and changes
-Completing this has increased familiarity with the process of creatign a website, flexbox and CSS overall.  Further work needs doign for functionality, such as:
+Completing this has increased familiarity with the process of creating a website, flexbox and CSS overall.  Further work needs doing for functionality, such as:
 - Fixed header that allows for section links to work proerly
 - A more improved visual component for design appeal
 - Updated functionality to include media players
