@@ -12,14 +12,17 @@ main {
   
 }
 
+section {
+  width:100%;
+}
 /* header */
 .sticky {
-   position:-webkit-sticky; position:sticky; top:0;
+   position:sticky
 }
 
 .main-header {
   opacity: 1;
-  color: #555352;
+  color: #4F4846;
   font-size:30px;
   text-align: center;
   padding: 10px;
@@ -34,6 +37,7 @@ main {
   max-width: 100%;
   padding: 5px;
   display: flex;
+  flex-wrap: wrap;
   background-color: #4F4846;
   opacity: 5;
   justify-content: space-between;
@@ -67,7 +71,8 @@ a:hover {
 
 /* footer */
 .footer {
-  color: #e2e0e0;
+  
+  color:rgb(4, 133, 133);
   height: 40px;
   width: 100%;
   font-size: 10px;
@@ -115,8 +120,12 @@ input{
   z-index: -1;
 }
 
+p {
+  padding: 10px
+}
+
 /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-.card-column {
+form, .card-column {
   flex: 1 0 50%;
   padding: 1.5rem;
   /* when the screen resizes, make it so our columns don't jump in size */
@@ -128,9 +137,9 @@ input{
   /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
   position: relative;
   margin: 10px;
-  padding: 10px;
-  background-color: #4F4846;
-  color: rgb(4, 133, 133);
+  padding: 5px;
+  background-color: #80bdbd;
+  color: #4F4846;
   border-radius: 30px;
   z-index: -1;
   text-align: center;
