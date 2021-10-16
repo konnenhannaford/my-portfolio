@@ -42,19 +42,18 @@ html {
 }
 
 @media screen and (max-width: 965px) {
-    .welcome{
+    .landing{
     width: 500px;
     text-align: center;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .welcome{
+    .landing{
     width: 300px;
     text-align: center;
     }
 
-    p.title.is-1.weltext {
-    font-size: 30px;
-}
+ 
+
 }
