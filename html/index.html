@@ -62,66 +62,31 @@
         </div>
     </nav>
 
-    <div class="slideshow-container">
+    <section class="section">
+        <div class="container">
+            <!-- Start Carousel -->
+            <div id="carousel-demo" class="carousel">
+                <div class="item-1">
+                    <!-- Slide Content -->
+                </div>
+                <div class="item-2">
+                    <!-- Slide Content -->
+                </div>
+                <div class="item-3">
+                    <!-- Slide Content -->
+                </div>
+            </div>
+            <!-- End Carousel -->
+        </div>
+    </section>
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides">
-          <img src="../images/password.png" >
-          <div >
-            <p class="text">
-                Password Generator
-            </p> 
-            <p>
-                Github Link: https://github.com/konnenhannaford/password-generator
-            </p>
-            <p>
-                Deployed Site: https://konnenhannaford.github.io/password-generator/
-            </p>
-        </div>
-      </div>
-      
-        <div class="mySlides">
-          <img src="../images/quiz.png">
-          <div >
-              <p class="text">
-                  Javascript Quiz
-              </p>
-              <p>
-                  Github Link: https://github.com/konnenhannaford/Java-Quizz
-              </p>
-              <p>
-                  Deployed Site: https://konnenhannaford.github.io/Java-Quizz/
-              </p>
-          </div>
-        </div>
-      
-        <div class="mySlides">
-          <img src="../images/scheduler.png">
-          <div>
-                <p class="text">
-                    Workday Scheduler
-                </p> 
-                <p>
-                    Github Link: https://github.com/konnenhannaford/Day-Planner
-                </p>
-                <p>
-                    Deployed Site: https://konnenhannaford.github.io/Day-Planner/
-                </p>
-          </div>
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev fa fa-angle-double-left" onclick="plusSlides(-1)"></a>
-        <a class="next fa fa-angle-double-right" onclick="plusSlides(1)"></a>
-      </div>
-      <br>
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script>
+    bulmaCarousel.attach('#carousel-demo', {
+        slidesToScroll: 1,
+        slidesToShow: 4
+    });
+    </script>
 
     <footer class="footer">
     <div class="content has-text-centered">
@@ -134,8 +99,5 @@
     <!-- what is MIT Licence -->
     </footer>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
-    <script src="../js/portfolio.js"></script>
 </body>
 </html>

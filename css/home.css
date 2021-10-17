@@ -1,7 +1,7 @@
 
-.navbar-item {
+/* .navbar-item {
     border-radius: 90px;
-}
+} */
 
 html { 
     background-image: url("../images/white.jpeg");
@@ -24,11 +24,20 @@ body{
     
 }
 
+.profile-pic {
+width: 25%;
+height: 50%;
+border-radius: 20px;
+outline: #ee8982;
+border-color: #fbd977;
+}
+
 .site-logo {
     border-radius: 180px;
     width: 100px;
     height: 100px;
 }
+
 
 .main-header {
     text-align: center;    
@@ -53,24 +62,22 @@ body{
 .navbar-item {
     color: #76a8fc;
     text-align: center;
-    display: block;
-    width: 50%;
+    display: inline-flex;
 }
 
-.navbar-end {
-    background-color:#ee8982;
+/* .navbar-end {
     display: inline-block;
-}
+} */
 
-.footer {
+/* .footer {
     padding: 10px;
     background-color: #ee8982a9;
     color: #76a8fc;
     font-family: 'Raleway', sans-serif;
     margin-top: auto;
 }
-
-.home {
+ */
+.contact {
     background-color: transparent;
     /* border-radius: 45px; */
     /* display: block; */
@@ -107,18 +114,50 @@ p {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
+    /* font-size: 30px; */
     width: 50px;
-    text-align: center;
-    text-decoration: none;
+    /* text-align: center;
+    text-decoration: none; */
     color: #76a8fc;
 
   }
   
   .fa:hover {
     color: #fbd977;
+    
   }
 
+  .card {
+    animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
 @media screen and (max-width: 965px) {
     .home {

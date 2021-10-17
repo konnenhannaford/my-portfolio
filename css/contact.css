@@ -1,163 +1,132 @@
-*{
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+/* .navbar-item {
+    border-radius: 90px;
+} */
+
+html { 
+  background-image: url("../images/white.jpeg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100%; 
 }
-main {
+
+
+body{
+  min-height: 100vh;
   display: flex;
-  flex-wrap: wrap;
-  line-height: 1.5;
-  margin: 5%;
+  flex-direction: column;
 }
 
-section {
-  width:100%;
+.sitelogo {
+  border-radius: 180px;
+  
 }
 
-/* header */
-.sticky {
-   position:sticky
+.site-logo {
+  border-radius: 180px;
+  width: 100px;
+  height: 100px;
 }
 
 .main-header {
-  opacity: 1;
-  color: #4F4846;
-  font-size:30px;
-  text-align: center;
-  padding: 10px;
-  background-color: rgb(4, 133, 133);
+  text-align: center;    
+  font-family: 'Poiret One', cursive;
 }
 
-#hannaford {
-  color: rgb(97, 95, 95)
-}
-
-.toolbar {
-  max-width: 100%;
-  padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #4F4846;
-  opacity: 5;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.profile-pic {
-  border-radius: 90px;
-  color: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    
-}
-
-li {
-  display: inline;
-  font-size: 20px;
-}
-
-a:visited { 
-  text-decoration: none; color:rgb(4, 133, 133) 
-}
-a:hover { 
-  text-decoration: none; color:black 
-}
-
-.portfolio-pics {
-  border-radius: 180px;
-}
-
-#other-work {
-  width: 50%;
-}
-
-/* footer */
-.footer {
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  background-color: transparent;
+  align-content: center;
   
-  color:rgb(4, 133, 133);
-  height: 40px;
-  width: 100%;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
+}
+
+.title {
+  color: #ee8982;
+}
+
+.subtitle {
+  color: #fbd977;
+}
+
+.navbar-item {
+  color: #76a8fc;
+  text-align: center;
+  display: inline-flex;
 }
 
 
-/* message box */
-form {
-  width: 100%;
-  padding: 15px;
-  z-index: -1;
-  justify-content: center;
+.footer {
+  padding: 10px;
+  background-color: #ee8982a9;
+  color: #76a8fc;
+  font-family: 'Raleway', sans-serif;
+  margin-top: auto;
 }
 
-button {
-  height: 20px;
-  width: 40px;
-  font-size: 10px;
-  color: #4F4846;
-  border: none;
-  border-radius: 35px;
+
+h1 {
+  font-size: 100px;
+  color: #ee8982;
 }
 
 p {
-  width: 90vw;
+  color: #fbd977;
+  font-size: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
-input{
-  box-sizing: content-box;
-  position:relative;
-  width: 100%;
-  padding: 10px;
-  height: 10px;
-  border: none;
-  border-bottom: 5px solid rgb(4, 133, 133);
-  background-color: transparent;
-  opacity: 0.5;
-  border-radius: 35px;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #76a8fc;
+
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-left: 200px;
-  z-index: -1;
+.fa:hover {
+  color: #fbd977;
 }
 
-.card-column {
-  flex: 1 0 50%;
-  transition: flex-basis 500ms linear;
-}
+* {box-sizing:border-box}
 
-.card-header {
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
   position: relative;
-  margin: 10px;
-  padding: 5px;
-  background-color: #80bdbd;
-  color: #4F4846;
-  border-radius: 30px;
-  z-index: -1;
-  text-align: center;
-  font-size: 20px;
+  margin: auto;
+  
 }
 
-h2{
-  position: relative;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgb(4, 133, 133);
-  color: #4F4846;
-  border-radius: 30px;
-  z-index: -1;
-  text-align: center;
-}
-
-.card-body {
-  height: 100%;
+/* Caption text */
+.text {
+  color: #ee8982;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  /* margin:auto; */
+  /* position: absolute; */
+  bottom: 8px;
   width: 100%;
-  object-fit: cover;
   text-align: center;
 }
 
 
 
+@media screen and (max-width: 965px) {
+  .contact {
+  width: 500px;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+  width: 300px;
+  text-align: center;
+  }
+}
