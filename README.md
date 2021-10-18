@@ -29,6 +29,11 @@ This page is the wesbite of Konnen Hananford - web developer. Included on the pa
 # Making Changes
 - Repo is public and can be updated by all via https://konnenhannaford.github.io/my-portfolio/
 
+# Contact Me
+Email: konnen23@gmaill.com
+Linkedin: https://au.linkedin.com/in/konnen-hannaford-b024994a
+Github: https://github.com/konnenhannaford
+
 # Learnings and changes
 This porject has been further developed and shows the improvements made since first completed.  Changes have been made for:
 - A more improved visual component for design appeal

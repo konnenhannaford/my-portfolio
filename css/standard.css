@@ -86,3 +86,6 @@ p {
     color: #fbd977;
   }
 
+  .navbar-burger {
+      display:list-item
+  }
