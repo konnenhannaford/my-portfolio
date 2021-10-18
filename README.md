@@ -7,7 +7,7 @@ Github Repo: The source can be retrieved by cloning and pulling from https://git
 This page is the wesbite of Konnen Hananford - web developer. Included on the page is information about Konnen, his portfolio and a section for contact information.
 
 # Tools used
-- HTML, CSS, Javascript, Bulma
+- HTML, CSS, Javascript, JQuery, Bulma
 
 # Updates
 - Site has been updated to inlcude links to social sites and projects
