@@ -14,10 +14,6 @@ body{
     flex-direction: column;
 }
 
-.sitelogo {
-    border-radius: 180px;
-    
-}
 
 .site-logo {
     border-radius: 180px;
@@ -71,14 +67,10 @@ p {
     font-size: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    font-weight: 900;
 }
 
-.about-me-header {
-    color: #ee8982;
-    font-size: 40px;
-    text-align: center; 
-    font-family: 'Poiret One', cursive;
-}
+
 
 .fa {
     padding: 20px;
@@ -93,3 +85,4 @@ p {
   .fa:hover {
     color: #fbd977;
   }
+

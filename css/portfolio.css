@@ -1,103 +1,4 @@
 
-/* .navbar-item {
-    border-radius: 90px;
-} */
-
-/* html { 
-    background-image: url("../images/white.jpeg");
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat; 
-    height: 100%; 
-}
-
-
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.sitelogo {
-    border-radius: 180px;
-    
-}
-
-.site-logo {
-    border-radius: 180px;
-    width: 100px;
-    height: 100px;
-}
-
-.main-header {
-    text-align: center;    
-    font-family: 'Poiret One', cursive;
-}
-
-.navbar {
-    font-family: 'Raleway', sans-serif;
-    background-color: transparent;
-    align-content: center;
-    
-}
-
-.title {
-    color: #ee8982;
-}
-
-.subtitle {
-    color: #fbd977;
-}
-
-.navbar-item {
-    color: #76a8fc;
-    text-align: center;
-    display: inline-flex;
-}
-
-
-.footer {
-    padding: 10px;
-    background-color: #ee8982a9;
-    color: #76a8fc;
-    font-family: 'Raleway', sans-serif;
-    margin-top: auto;
-}
-
-
-h1 {
-    font-size: 100px;
-    color: #ee8982;
-}
-
-p {
-    color: #fbd977;
-    font-size: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-.about-me-header {
-    color: #ee8982;
-    font-size: 40px;
-    text-align: center; 
-    font-family: 'Poiret One', cursive;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: #76a8fc;
-
-  }
-  
-  .fa:hover {
-    color: #fbd977;
-  } */
 
   * {box-sizing:border-box}
 
@@ -109,7 +10,6 @@ p {
     
   }
   
-  /* Hide the images by default */
   .mySlides {
     background-color: #76a8fc;
     border-radius: 25px 25px 45px 45px !important;
@@ -146,47 +46,33 @@ p {
   }
   /* Next & previous buttons */
   .prev, .next {
-    /* cursor: pointer; */
     position: absolute;
     top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 10px;
-    /* color: #76a8fc; */
-    /* font-weight: bold;
-    font-size: 18px; */
-    /* transition: 1s ease; */
-    /* border-radius: 0 3px 3px 0; */
-    /* user-select: none; */
   }
   
-  /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: #ee8982;
   }
-  
-  /* Caption text */
+
   .text {
     color: #ee8982;
     font-size: 15px;
     font-weight: bold;
     padding: 8px 12px;
-    /* margin:auto; */
-    /* position: absolute; */
     bottom: 8px;
     width: 100%;
   }
   
 
-  /* The dots/bullets/indicators */
   .dot {
-    /* cursor: pointer; */
     height: 15px;
     width: 15px;
     margin: 0 2px;
