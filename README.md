@@ -7,12 +7,13 @@ Github Repo: The source can be retrieved by cloning and pulling from https://git
 This page is the wesbite of Konnen Hananford - web developer. Included on the page is information about Konnen, his portfolio and a section for contact information.
 
 # Tools used
-- HTML, CSS
+- HTML, CSS, Javascript, Bulma
 
 # Updates
 - Site has been updated to inlcude links to social sites and projects
 - Site has been updated to include section links at the top of the page
 - Site has been updated to format to smaller screens and maintain formatting
+- Site has been updated to show Bulma styling
 - Coding for site has been streamlined for efficiency 
 - A repo following best practice has been created 
 - A ReadMe detailing the site and its workings has been created
@@ -29,14 +30,24 @@ This page is the wesbite of Konnen Hananford - web developer. Included on the pa
 - Repo is public and can be updated by all via https://konnenhannaford.github.io/my-portfolio/
 
 # Learnings and changes
-Completing this has increased familiarity with the process of creating a website, flexbox and CSS overall.  Further work needs doing for functionality, such as:
-- Fixed header that allows for section links to work proerly
+This porject has been further developed and shows the improvements made since first completed.  Changes have been made for:
 - A more improved visual component for design appeal
-- Updated functionality to include media players
 - Updated fucntionality to include javascript
-- Update to include future work
+- Updates to include future work
+
+# Licence
+Copyright <2021> <1My Portfolio>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 # Screnshot of deployed page
-![Deployed Page](screencapture-konnenhannaford-github-io-my-portfolio-2021-09-03-13_49_30.png)
+![Deployed Page](images/sitess1.png)
+![Deployed Page](images/sitess2.png)
+![Deployed Page](images/sitess3.png)
 
 
